@@ -27,7 +27,7 @@ const aURL = [
   [
     "2196F3",
     "RADAR",
-    "https://reg.bom.gov.au/products/IDR643.loop.shtml",
+    "https://reg.bom.gov.au/products/IDR023.loop.shtml",
     "1",
     "R"
   ],
