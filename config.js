@@ -58,7 +58,7 @@ const aIMG = [
   ["RADAR", "https://reg.bom.gov.au/gms/IDE00105.jpg"],
   [
     "LOCAL RADAR",
-    "https://reg.bom.gov.au/radar/IDR643.gif",
+    "https://reg.bom.gov.au/radar/IDR023.gif",
   ],
   [
     "NOAA D-RAP",
