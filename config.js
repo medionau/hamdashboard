@@ -1,4 +1,4 @@
-const topBarCenterText = `VK3VSM - FN04ga`;
+const topBarCenterText = `VK3VSM - QF23qo`;
 // Menu items
 // Structure is as follows HTML Color code, Option, target URL, scaling 1=Original Size, side (optional, nothing is Left, "R" is Right)
 // The values are [color code, menu text, target link, scale factor, side],
@@ -8,7 +8,7 @@ const aURL = [
   ["add10d", "BACK", "#", "1", "R"],
   ["ff9100", "Refresh", "#", "1"],
   ["0dd1a7", "Help", "#", "1"],
-  ["2196F3", "CLUBLOG", "https://clublog.org/livestream/VA3HDL", "1.7"],
+  ["2196F3", "QRZ LOGBOOK", "https://logbook.qrz.com/", "1.7"],
   [
     "2196F3",
     "CONTEST",
@@ -27,7 +27,7 @@ const aURL = [
   [
     "2196F3",
     "RADAR",
-    "https://weather.gc.ca/?layers=alert,radar&center=43.39961001,-78.53212031&zoom=6&alertTableFilterProv=ON",
+    "https://reg.bom.gov.au/products/IDR643.loop.shtml",
     "1",
     "R"
   ],
@@ -35,14 +35,14 @@ const aURL = [
   [
     "2196F3",
     "WEATHER",
-    "https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=44.0157&lon=-79.4591&zoom=5",
+    "https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=-37.0026&lon=144.7778&zoom=6",
     "1",
     "R",
   ],
   [
     "2196F3",
     "WINDS",
-    "https://earth.nullschool.net/#current/wind/surface/level/orthographic=-78.79,44.09,3000",
+    "https://earth.nullschool.net/#current/wind/surface/level/orthographic=-217.86,-37.12,2540/loc=143.937,-36.444",
     "1",
     "R",
   ],
@@ -55,10 +55,10 @@ const aURL = [
 // You can't add more items because there are only 12 placeholders on the dashboard
 // but you can replace the titles and the images with anything you want.
 const aIMG = [
-  ["RADAR", "https://radar.weather.gov/ridge/standard/CONUS_loop.gif"],
+  ["RADAR", "https://reg.bom.gov.au/gms/IDE00105.jpg"],
   [
     "LOCAL RADAR",
-    "https://radar.weather.gov/ridge/standard/KNQA_loop.gif",
+    "https://reg.bom.gov.au/radar/IDR643.gif",
   ],
   [
     "NOAA D-RAP",
@@ -79,7 +79,7 @@ const aIMG = [
   ],
   [
     "LIGHTNING",
-    "https://images.lightningmaps.org/blitzortung/america/index.php?animation=usa",
+    "https://www.lightningmaps.org/blitzortung/oceania/index.php?animation=australia",
   ],
   [
     "LIGHTNING LOCAL",
